@@ -1,0 +1,79 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafe;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Main Title */
+.main-title {
+  font-size: 2.8rem;
+  color: #002b80; /* Dark Blue */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Bio Text */
+.bio-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  color: #0059b3; /* Medium Blue */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Hobby Box */
+.hobby-box {
+  background-color: #eef4ff;
+  border: 2px solid #b3d1ff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.hobby-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.hobby-list li {
+  margin-bottom: 0.8rem;
+}
+
+/* Image Section */
+.image-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.image-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.game-cover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 4px solid #b3d1ff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
